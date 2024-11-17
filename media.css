@@ -1,0 +1,73 @@
+@media screen and (max-width: 1117px) {
+  .container {
+    flex-direction: column;
+    display: flex;
+  }
+  .aside ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .aside {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .aside .perfil img {
+    width: 35%;
+    margin-top: 6px;
+  }
+  .navlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navlist span {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .navlist a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aside .perfil {
+    display: none;
+  }
+  .numerosReacoes {
+    border: none;
+    gap: 13px;
+  }
+  .comentar button {
+    font-size: 13px;
+  }
+  .comit .perfilMobile {
+    display: flex;
+  }
+  .publicaBox {
+    width: 100%;
+    padding: 0;
+  }
+  .inputBox {
+    width: 20px;
+  }
+  header .pesq {
+    font-size: 12px;
+  }
+
+  .imgContent img {
+    width: 100%;
+  }
+  .content{
+    font-size: 1rem;
+  }
+  .name{
+    font-size: 13px;
+  }
+}
